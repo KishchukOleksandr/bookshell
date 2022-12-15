@@ -34,7 +34,7 @@ string Author::SecondName() const
 	return secondName;
 }
 
-void Author::SecondName(const &sName)
+void Author::SecondName(const string &sName)
 {
 	secondName = sName;
 }
