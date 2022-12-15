@@ -18,3 +18,13 @@ void Author::Bio(const string &bio)
 {
 	this->bio = bio;
 }
+
+string Author::FirstName() const
+{
+	return firstName;
+}
+
+void Author::FirstName(const string &fName)
+{
+	firstName = fName;
+}
