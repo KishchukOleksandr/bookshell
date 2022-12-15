@@ -28,3 +28,13 @@ void Author::FirstName(const string &fName)
 {
 	firstName = fName;
 }
+
+string Author::SecondName() const
+{
+	return secondName;
+}
+
+void Author::SecondName(const &sName)
+{
+	secondName = sName;
+}
