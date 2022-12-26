@@ -5,6 +5,10 @@
 
 class Book : public Issue
 {
+public:
+	Book();
+	Book(const std::string &name);
+		
 };
 #endif
 
