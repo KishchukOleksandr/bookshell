@@ -7,6 +7,7 @@ class Issue
 {
 private:
 	std::string name;
+	size_t pages;
 public:
 	Issue();
 	Issue(const std::string &name);
