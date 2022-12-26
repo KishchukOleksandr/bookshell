@@ -1,12 +1,11 @@
-#ifndef __BOOK_H__
-#define __BOOK_h__
+#ifndef __BOOK__
+#define __BOOK__
 
-class Bool
+#include "issue.h"
+
+class Book : public Issue
 {
-private:
-	string name;
-	uint16_t pages;
-}
+};
 #endif
 
 
