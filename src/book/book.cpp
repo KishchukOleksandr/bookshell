@@ -11,3 +11,8 @@ Book::Book(const std::string &name)
 {
 	std::cout << "Book - string ctor\n";
 }
+
+Book::~Book()
+{
+  std::cout <<"Book - dtor\n";
+}
